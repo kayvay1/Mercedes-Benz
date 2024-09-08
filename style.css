@@ -1,0 +1,326 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Broken+Fax&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 26vh;
+    position: relative;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* text-align: center; */
+    align-self: center;
+}
+.navi{
+    width: 90%;
+    margin-top: 30px;
+    display: flex;
+}
+.frist{
+    
+}
+.frist>img{
+    position: relative;
+    width: 6%;
+    margin-left: 40px;
+}
+.frist>a{
+    text-decoration: none;
+    color: rgb(194, 190, 190);
+    margin-left: 30px;
+    font-size: 2vw;
+}
+.second{
+    display: flex;
+    color: white;
+}
+.second>p{
+    font-size: 10px;
+    color: rgb(179, 178, 178);
+}
+.second>i{
+    position: relative;
+    right: 100px;
+    top: 10px;
+    text-align: center;
+    align-items: center;
+    margin-right: 30px;
+}
+input{
+    width: 400px;
+    background-color: rgb(83, 82, 82);
+    color: white;
+    padding: 10px 10px;
+    margin-right: 150px;
+}
+::placeholder{
+    color: white;
+}
+nav{
+    width: 90%;
+    color: white;
+    margin-top: 5px;
+    /* background-color: white; */
+    position: sticky;
+    top: 0;
+}
+nav>ul{
+    margin-top: 10px;
+    display: flex;
+}
+nav ul a> li{
+    padding: 5px 20px;
+    list-style: none;
+    
+}
+nav>ul> a{
+    text-decoration: none;
+    color: rgb(177, 173, 173);
+    transition: all 1s ease;
+    
+}
+nav>ul>a:hover{
+    color: white;
+}
+
+.section1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.main{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(65,9,121,0.8157387955182073) 35%, rgba(0,212,255,1) 100%);
+
+}
+#left{
+    position: relative;
+    flex-basis: 30%;
+    /* height: 100vh; */
+    text-align: start;
+    align-items: center;
+    top: 80px;
+    /* background-color: red; */
+    color: white;
+}
+#left>h1{
+    padding: 20px 10px;
+    font-weight: 900;
+    margin-top: 100px;
+    font-size: 2vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#left>p{
+    padding: 20px 10px;
+    margin-top: 150px;
+    color: rgba(255, 255, 255, 0.614);
+}
+
+#left>a{
+    text-decoration: none;
+    color: white;
+    border: .5px solid white;
+    padding: 15px 10px;
+    transition: all .4s ease;
+}
+#findbtn{
+    border: .1px solid white !important;
+}
+#requestbtn{
+    background-color: royalblue;
+    border: none !important;
+}
+#findbtn:hover{
+    background-color: rgba(79, 79, 79, 0.769);
+}
+#requestbtn:hover{
+    background-color: rgb(38, 60, 124);
+}
+#right{
+    flex-basis: 70%;
+}
+
+.section2{
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.deatilescar{
+    width: 80%;
+    /* background-color: red;  */
+    display: flex;
+    flex-direction: column;
+    color: black;
+
+}
+.speed{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 40px 30px;
+}
+.speed>div{
+    padding: 10px 50px;
+}
+.speed2{
+    padding: 20px 60px;
+    margin-top: 100px;
+}
+.section3{
+    position: relative;
+    width: 100%;
+    height: 140vh;
+    margin-top: 60px;
+}
+.Mercedesimg{
+    width: 100%;
+}
+#Mercedes{
+    width: 100%;
+}
+footer{
+    width: 100%;
+    position: relative;
+    background-color: black;
+    color: white;
+}
+.up{
+    padding-top: 30px;
+    width: 100%;
+}
+.up>h2{
+    text-align: center;
+    align-items: center;
+    padding-bottom: 120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footlink{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 10px;
+    padding: 10px 30px;
+}
+.card>h2{
+    padding: 23px 0px;
+}
+.card>p{
+    color: rgb(176, 173, 173);
+    padding: 18px 0px;
+
+}
+.ending{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.copyright{
+    color: rgb(176, 173, 173);
+    padding: 12px 30px;
+}
+.icons>i{
+    font-size: 2vw;
+    padding: 0px 10px;
+}
+
+
+
+
+
+
+#model{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    transition: all 5s ease;
+    scale: 1;
+    z-index: 100;
+    /* background-color: white; */
+    align-items: end;
+    text-align: end;
+    align-self: flex-end;
+}
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+}
+/* #btn1{
+    width: 42px;
+    padding: 40px 10px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    border: 1px solid black;
+    border-radius: 20px;
+    z-index: 200;
+    background-color: #f5cb42;
+    color: black;
+    
+} */
+/* .main{
+    position: absolute;
+    z-index: 200;
+} */
+
+#lastanime{
+    position: absolute;
+    width: 70%;
+    top: 190px;
+    left: 27%;
+    scale: 0;
+    margin-left: 1200px;
+    transition: all 3s ease;
+    transition-delay: 3s;
+}
+#lasthead{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(225, 218, 218);
+    position: absolute;
+    top: 350px;
+    left: 36%;
+    width: 50%;
+    opacity: 0;
+    transition: all 5s ease;
+}
+#mainhead{
+    letter-spacing: 10px;
+    width: 100px;
+    position: absolute;
+    top: 210px;
+    left: 100px;
+    color: white;
+    font-size: 4vw;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px 6px rgba(255, 255, 0, 0.667);
+}

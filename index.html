@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="navi">
+            <div class="frist">
+                <!-- <img src="./img/Mercedeslogo.png" alt=""> -->
+                <img src="./img/mercedeslogo2.png" alt="">
+                <a href="#">Mercedes-Benz</a>
+            </div>
+            <div class="second">
+                <p>Privacy Policy/Provider</p>
+                <input type="text" name="" id="" placeholder="Your Search term">
+                <i class="fa fa-car"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        
+        <nav><hr>
+            <ul>
+                <a href="#"><li>Our Models</li></a>
+                <a href="#"><li>Buy Online</li></a>
+                <a href="#"><li>Finance</li></a>
+                <a href="#"><li>Services</li></a>
+                <a href="#"><li>Our Brand</li></a>
+            </ul>
+        </nav>
+    </header>
+    <section class="section1">
+        
+      <div class="main">
+        
+        <div id="left">
+            <!-- <h1>The exterior of the Mercedes-Benz C-Class.</h1> -->
+            <p>Exceptional year-end savings on select Mercedes-Benz models. </p>
+        <!-- <p>The exterior design of the Mercedes-Benz C-Class impresses with its progressive appearance. Feel free to take a closer look. <br>
+            Learn more about other available equipment for the C-Class, including from the multimedia, assistance systems and comfort and safety categories.</p>  -->
+            <br> <br> <br> <br> <br>
+        <a id="findbtn" href="#">Find Available Cars</a>
+        <a id="requestbtn" href="#">Request a callback</a>
+            
+        </div>
+        <div id="right">
+            <!-- <model-viewer src="./assets/scene.glb" alt="city vr"  camera-controls ar magic-leap shadow-intensity="1" ios-src="./assets/scene.glb" id="model" >           
+              
+            </model-viewer> -->
+            <!-- <img src="./img/Scifi.png" alt="" id="scifi"> -->
+            <!-- <img src="./img/nightStar.png" alt=""> -->
+            <!-- <a href="#" id="btn1"><span>C</span><br><span>l</span><br><span>i</span><br><span>c</span><br><span>k</span></a> -->
+            <model-viewer src="./assets/scene.glb" alt="city vr"   ar magic-leap shadow-intensity="1" ios-src="./assets/scene.glb" id="model" >           
+              
+            </model-viewer>
+            
+        </div>
+      </div>
+       
+    </section>
+
+    <section class="section2">
+        <div class="deatilescar">
+            <div class="speed">
+                <div class="one">
+                    <p>from</p>
+                    <h3>5.7 Second</h3>
+                    <p>Acceleration 0-100 km/h </p>
+                </div>
+                <div class="two">
+                    <p>Up to</p>
+                    <h3>195 (265) <br> kw/hp <small>[i]</small> </h3>
+                    <p>Rated output</p>
+                </div>
+                <div class="three">
+                    <p>Up to</p>
+                    <h3>250 km/h</h3>
+                    <p>top speed</p>
+                </div>
+            </div>
+            <div class="speed2">
+                <h2>The design of the C-Class.</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="section3">
+        <div class="Mercedesimg">
+            <img src="./img/Mercedes2.jpg" alt="" id="Mercedes">
+        </div>
+    </section>
+
+    <footer>
+        <div class="up">
+            <h2>Up</h2>
+            <div class="footlink">
+                <div class="card">
+                    <h2>Buy Vehicle</h2>
+                    <p>Pre-own Car</p>
+                    <p>Find a new Car</p>
+                    <p>Configure your car</p>
+                    <p>All Brochurs</p>
+                    <p>Model overview</p>
+                   
+                </div>
+                <div class="card">
+                    <h2>Buying Guide</h2>
+                    <p>Book a test Drive</p>
+                    <p>Nearest Showroom</p>
+                    <p>Finance</p>                   
+                </div>
+                <div class="card">
+                    <h2>Customer Services</h2>
+                    <p>Book a service appointment</p>
+                    <p>Owner,s Manuals</p>
+                    <p>Grievances Redressal mechanisum</p>                   
+                </div>
+                <div class="card">
+                    <h2>Technology</h2>
+                    <p>Electric mobility</p>
+                    <p>About Mercedes me</p>
+                    <p>Contact services</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="ending">
+            <div class="copyright">
+                <p>copyright @ 2023 Design by Anil kay</p>
+            </div>
+            <div class="icons">
+                <i class="fa fa-facebook-official"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin-square"></i>
+                <i class="fa fa-pinterest-square"></i>
+                <i class="fa fa-twitter-square"></i>
+                <i class="fa fa-youtube-play"></i>
+            </div>
+        </div>
+    </footer>
+
+    <img src="./img/Mercedes.png" alt="" id="lastanime">
+    <h1 id="lasthead">
+        Your way to your dream car. It's just a few steps to your Mercedes-Benz. Convenient and possible from anywhere. Fast. Easy. Secure.
+    </h1>
+    <h1 id="mainhead">Opportunity knocks</h1>
+
+
+
+
+
+    <script>
+        let modelViewer = document.querySelector('model-viewer');
+        let btn1 = document.getElementById("requestbtn");
+        let model = document.getElementById("model");
+        let lastanime = document.getElementById("lastanime");
+        let value = window.scrollY;
+        let scrollCount = 0;
+
+        modelViewer.cameraOrbit = '120deg 85deg 0%';
+
+
+        window.addEventListener("wheel", function(e){
+            let scrollvalue = e.deltaY
+            scrollCount++
+            let finaldelta = scrollvalue+scrollCount;
+
+            modelViewer.cameraOrbit = finaldelta  + "0deg" + "85deg" + "0%"
+
+
+            console.log(finaldelta)
+        })
+
+        btn1.addEventListener("click", function(){
+            modelViewer.cameraOrbit =  '190deg 90deg 0%'
+            model.style.scale = 1;
+            goCar()
+        })
+        
+
+        function goCar(){
+            modelViewer.style.marginLeft = -1620+ "px"
+            lastanime.style.marginLeft = 0;
+            lastanime.style.scale = 1;
+            lasthead.style.opacity = 1;
+        }
+
+      
+        
+
+
+
+             
+    </script>
+    
+</body>
+</html>
